@@ -1,6 +1,6 @@
 import time
 
-def test_language(browser):
+def test_check_add_button(browser):
     browser.implicitly_wait(12)
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
